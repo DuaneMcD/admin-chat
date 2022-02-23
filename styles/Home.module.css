@@ -1,0 +1,121 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  height: 100vh; */
+}
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vh;
+  /* justify-content: flex-start;
+  align-items: center; */
+  /* min-height: 100vh;
+  height: 100vh; */
+}
+.chatContainer {
+  background-color: none;
+  min-height: 80vh;
+  min-width: 70vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.chatWindow {
+  background-color: rgba(100, 100, 100, 0.25);
+  border: 3px solid black;
+  border-radius: 4px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 2vh 0 0 2vw;
+  height: 100%;
+  width: 100%;
+}
+.chatInput {
+  align-self: flex-end;
+  flex-grow: 0;
+  margin: 0 2% 1% 0;
+  width: 75%;
+  border: none;
+  border-radius: 2px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65vh;
+  top: 10px;
+  left: 0;
+  width: 10vw;
+  height: 90vh;
+  padding-block: 2.5%;
+  background-color: #555;
+}
+
+.sidebarButton {
+  font-size: 1.35em;
+  text-align: center;
+  font-weight: 500;
+  margin-inline: auto;
+  width: 90%;
+  background-color: orange;
+  color: #fff;
+}
+.chatBar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65vh;
+  top: 10px;
+  left: 11vw;
+  width: 12vw;
+  height: 90vh;
+  padding-block: 2.5%;
+  background-color: #555;
+  border-left: 2px solid ghostwhite;
+}
+
+.conversationButton {
+  font-size: 1.05em;
+  text-align: center;
+  font-weight: 500;
+  margin-inline: auto;
+  width: 90%;
+  background-color: orange;
+  color: #fff;
+}
+
+.main {
+  left: 10vw;
+  padding: 5rem 0;
+  margin-bottom: auto;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.footer {
+  width: 100%;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
